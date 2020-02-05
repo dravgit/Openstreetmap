@@ -25,7 +25,7 @@ public class MainActivity extends AppCompatActivity {
             }
         setContentView(R.layout.activity_main);
         osm = (MapView) findViewById(R.id.mapView);
-        osm.setTileSource(TileSourceFactory.MAPQUESTOSM);
+        osm.setTileSource(TileSourceFactory.MAPNIK);
         osm.setBuiltInZoomControls(true);
         osm.setMultiTouchControls(true);
         mc = (MapController) osm.getController();
