@@ -1,0 +1,2 @@
+include ':app', ':osmdroid-android-4.3', ':slf4j-android-1.5.8', ':osmbonuspack_v3.7'
+rootProject.name='Openstreetmap'
